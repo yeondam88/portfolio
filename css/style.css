@@ -1,0 +1,146 @@
+/***************************************
+GENERAL
+****************************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+/*hr {
+  height: 1px;
+  width: 500px;
+  background-color: #000;
+  border: none;
+}*/
+
+/***************************************
+HEADING
+****************************************/
+
+#mast-heading {
+  background-image: url("http://i.imgur.com/Tk7NSQI.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  border-top: 0.6em solid #edc647;
+  overflow: hidden;
+}
+
+.main-heading h1 {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 5em;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1.5px 2px 0px #edc647;
+  padding-top: 2em;
+}
+
+.sub-heading p {
+  margin-top: -1.5em;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+
+.profile-pic {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+}
+
+.social .icons {
+  text-align: center;
+  width: 10%;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+}
+
+.social .icons li {
+  display: inline-block;
+  padding-left: 0.5em;
+}
+
+/***************************************
+NAVIGATION
+****************************************/
+
+#main-nav {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#main-nav .nav ul li {
+  font-weight: 100;
+  display: inline-block;
+  padding: 0.5em 0.5em;
+  border-top: 1px solid #B8C3BD;
+}
+
+#main-nav .nav ul li:hover {
+  border-top: 1px solid #000;
+}
+
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+/***************************************
+PROJECTS
+****************************************/
+
+#container {
+  background-color: ##F5F6FC;
+  /*background-image: url("http://i.imgur.com/SlmqtzT.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;*/
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+#container .projects ul {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container .projects ul li {
+  /*border: 1px solid #fff;*/
+  display: inline-block;
+  margin: 30px;
+  width: 28%;
+  color: #bdc3c7;
+  text-align: center;
+  background-color: #ddd;
+}
+
+#container .projects ul li img {
+  width: 100%;
+}
